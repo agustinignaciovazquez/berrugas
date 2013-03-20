@@ -1,0 +1,342 @@
+@charset "utf-8";
+/* Berrugas CSS Document....What da fuck r you doing here? */
+body {
+background-image:url(../images/bg.png);
+background-repeat:repeat;
+margin:0%;
+background-attachment:fixed;
+}
+a:link {
+color: #005CFF;
+}
+a:visited {
+color: #005CFF;
+}
+a:hover {
+color: #999;
+}
+a:active {
+color: #999;
+}
+.compartime,.destacar{
+color:#000;
+cursor:pointer;
+}
+.compartime:hover,.destacar:hover{
+color:#63605F;
+}
+#negrodemierda{
+min-width:100%;
+min-height:100%;
+position:fixed;
+background:url(../images/negro.png) repeat;
+display:none;
+}
+#stats center,#caps{
+font-size:20px;
+font-variant:small-caps;
+}
+#caps{
+text-aling:left;
+margin:0 auto 0 auto;
+clear:both;
+}
+#stats{
+font-variant:small-caps;
+}
+#head{
+width:70%;
+min-width:885px;
+height:131px;
+margin:0 auto 0 auto;
+}
+#logo{
+width:508px;
+float:left;
+height:131px;
+background:url(../images/logo.png) 0 0 no-repeat;
+}
+#centro{
+width:70%;
+min-width:895px;
+margin:0 auto 0 auto;
+background-color:#FFF;
+border:#333 solid 1px;
+font-family:"Times New Roman", Times, serif;
+font-size:15px;
+text-align:center;
+padding:4px;
+}
+#follow{
+position:fixed;
+right:0.5%;
+bottom:0.5%;
+color:#FFF;
+z-index:1;
+}
+#msg{
+position:fixed;
+bottom:0%;
+right:0%;
+color:#FFF;
+*color:#F00; /*IE 7 e inferiores por problemas con sombra, es una pija el ie*/
+font-weight:bolder;
+text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+font-size:38px;
+display:none;
+}
+.schools{
+position:static;
+margin:10px;
+border:#000 1px solid;
+width:150px;
+height:150px;
+border-radius:1em 0 1em 0;
+cursor:pointer;
+}
+#pplarestrange{
+margin:0 auto 5px auto;
+width:95%;
+border:1px dashed #000;
+}
+.image,.schoolbg{
+position:static;
+margin:4px;
+}
+.image{
+width:110px;
+height:110px;
+border:1px #000 solid;
+cursor:pointer;
+}
+.schoolbg{
+width:100px;
+height:100px;
+float:left;
+clear:none;
+background-repeat:no-repeat;
+margin-top:3px;
+}
+.topic{
+width:97%;
+margin:4px auto 3px auto;
+border:1px #000 solid;
+background:url(../images/bgh.png) repeat-x #FBFBFB;
+text-align:left;
+}
+.topic b{
+font-family:Tahoma, Geneva, sans-serif;
+font-size:15px;
+bottom:1%;
+}
+.topic span,.topic center{
+font-size:15px;
+font-style:oblique;
+overflow:auto;
+}
+.eh{
+font-size:9px;
+margin-top:4px;
+font-style:italic;
+text-align:right;
+color:#000;
+}
+.golddust{
+margin:3px;
+border:#000 0 solid;
+border-width:1px 0 0 0;
+clear:none;
+}
+.icantstop{
+width:55%;
+min-width: 568px;
+border:1px black dashed;
+margin:4px auto 0 auto;
+padding:5px;
+background-color:#F8F8F8; #
+border-radius:9px;
+background-image:url(../images/bgschools/1.png);
+background-repeat:no-repeat;
+background-position:100% 100%;
+}
+.icantstop span{
+font-weight:bolder;
+font-size:20px;
+color:#444;
+}
+.icantstop textarea{
+width:97%;
+margin: 1.6px;
+max-width: 98%;
+max-height: 100px;
+height:86px;
+background-color:#FEB9B4;
+}
+.icantstop input,.icantstop select{
+border:1px #C03 solid;
+background-color:#FEB9B4;
+font-weight:bolder;
+text-align:center;
+}
+.icantstop em{
+font-size:12px;
+}
+#more,#mores{
+width:25%;
+background-color:#FDFDFD;
+margin:3px auto 4px auto;
+border:2px #CCC solid;
+border-radius:10px;
+font-weight:bolder;
+font-size:18px;
+cursor:pointer;
+}	
+#nuevos{
+width:95%;
+margin:4px auto 0 auto;
+border:2px #F00 dashed;
+background-color:#FF4242;
+font-weight:bold;
+cursor:pointer;
+}
+.abajo{
+margin:0 auto 0 auto;
+width:60%;
+text-align:center;
+font-size:10px;
+font-weight:italic;
+background-color:#FFF;
+}
+.buscar{
+font-weight:bolder;
+width:50%;
+height:25px;
+margin:0 4px 0 0;
+border:1px #000 solid;
+background-color:#F9F9F9;
+}
+.social{
+width:32px;
+cursor:pointer;
+height:30px;
+background-image:url(../images/fbtw.png);
+z-index:2;
+}
+#fb{
+background-position:-34px 0;
+}
+#fix{
+width:95%;
+margin:0 auto 0 auto;
+}
+#stats{
+float:right;
+margin:5px 0 0 0;
+width:33%;
+height:120px;
+border:1px #000 solid;
+overflow-y:auto;
+background-image:url(../images/bgt.png);
+}
+#buscar{
+width:407px;
+height:35px;
+background-color:#FFF;
+border:1px #000 dashed;
+border-width:1px 1px 0 1px;
+border-radius:9px 9px 0 0;
+padding-top:4px;
+background-color:#FCFCFC;
+}
+#ble{
+width:110px;
+height:37px;
+background-color:#FFF;
+border:1px #000 dashed;
+border-width:1px 1px 0 1px;
+border-radius:9px 9px 0 0;
+padding:1px;
+float:right;
+clear:none;
+background-color:#FCFCFC;
+}
+.botones,.botonnada{
+width:33px;
+background-color:#FAFAFA;
+height:33px;
+margin:2px;
+border:1px #F0F0F0 solid;
+border-radius:3px;
+}
+.botones{
+cursor:pointer;
+}
+#normal{
+background-image:url(../images/change1.png);
+clear:none;
+float:left;
+}
+#ultimos{
+background-image:url(../images/change2.png);
+clear:none;
+}
+#imagenes{
+background-image:url(../images/change3.png);
+margin-top:-37px;
+}
+#close{
+font-size:20px;
+float:right;
+color:#333;
+margin:8px 10px 0 0;
+cursor:pointer;
+}
+#close:hover{
+color:#666;
+}
+.nuevon{
+float:left;
+font-size:15px;
+margin:0 0 0 2px;
+font-weight:bold;
+font-variant:small-caps;
+}
+#cambiarsc,#logout{
+font-size:17px;
+color:#000;
+}
+#compartir{
+width:510px;
+height:188px;
+border:1px #000 solid;
+margin:10% auto 0 auto;
+background-color:#FFF;
+font-weight:bold;
+font-size:30px;
+font-variant:small-caps;
+border-radius:9px;
+}
+#compartir td,#link{
+border:1px dashed #000;
+}
+#compartir td{
+background:url(../images/twfbc.png);
+height:65px;
+cursor:pointer;
+}
+#link{
+width:400px;
+height:127px;
+padding-top:10px;
+float:right;
+font-size:25px;
+margin:-142px 7px 0 0;
+text-align:center;
+}
+#link input{
+width:75%;
+border:1px #000 solid;
+background:url(../images/bgh.png) repeat;
+height:18px;
+font-weight:bolder;
+}
